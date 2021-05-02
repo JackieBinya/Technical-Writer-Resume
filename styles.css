@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Noto+Serif+TC:wght@900&family=Padauk:wght@400;700&display=swap');
+
+html, body{
+    width: 21cm;
+    height: 29.7cm;
+    background: #fff;
+}
+
+.container{
+    max-width: 20cm;
+    margin: 0 auto;
+}
+
+h1, h2{
+    font-family: 'Noto Serif TC', serif;
+    color: blue;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 0.8;
+    opacity: 0.8;
+}
+
+h1{
+    font-size: 4rem;
+    opacity: 0.8;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+a{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.title{
+    font-family: 'Courier Prime', monospace;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.icon-links{
+    font-family: 'Courier Prime', monospace;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.icon-links a{
+    display: flex;
+    align-items: center;
+}
+
+.icon-links a>span {
+    display: block;
+    font-size: 0.7rem;
+}
+
+.body-links{
+   text-decoration: underline;
+   text-decoration-color: blue;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.text{
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.headliner, .text {
+    font-family: 'Padauk', sans-serif;
+    font-weight: normal;
+}
+
+.headliner{
+    font-weight: bold;
+}
+
+.headliner > span {
+    opacity: 0.7;
+}
+
+.date{
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.7rem;
+    margin-bottom: 1em;
+}
+
+.details{
+    width: 15cm;
+}
+
+.experience{
+    width: auto;
+    padding-right: 0.5cm;
+}
+
+ul, ol{
+    padding: 0;
+    margin: 0;
+}
+
+.experience ul{
+    list-style: url(./assets/play.svg);
+    list-style-position: inside;
+}
+
+.experience > div{
+    padding: 0.5rem 0;
+}
+
+.education > div, .projects > div{
+    padding-bottom: 0.5rem;
+}
+
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-right: 2rem; */
+}
+
+.heading-container a{
+    padding: 0.5rem;
+}
+
+ol>li{
+    font-family: 'Padauk', sans-serif;
+    font-weight: normal;
+    font-size: 0.9rem;
+    /* opacity: 0.8; */
+    padding: 0.28em 0;
+}
+
+
